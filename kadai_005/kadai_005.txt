@@ -1,0 +1,16 @@
+(venv) akagi@akagi-z370a:~/.GitHub/samurai/2024/nacho/lesson25/git_challenge$ git init 
+Initialized empty Git repository in /home/akagi/.GitHub/samurai/2024/nacho/lesson25/git_challenge/.git/
+(venv) akagi@akagi-z370a:~/.GitHub/samurai/2024/nacho/lesson25/git_challenge$ git add .
+(venv) akagi@akagi-z370a:~/.GitHub/samurai/2024/nacho/lesson25/git_challenge$ git commit -m "hello_world.txtを追加"
+[main (root-commit) a77f100] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+(venv) akagi@akagi-z370a:~/.GitHub/samurai/2024/nacho/lesson25/git_challenge$ git log
+commit a77f100a25d1ab6855555551a665dcf7aaa1e7c4 (HEAD -> main)
+Author: Seiya Asahina <seiya@asahina>
+Date:   Wed Sep 4 14:18:48 2024 +0900
+
+    hello_world.txtを追加
+(venv) akagi@akagi-z370a:~/.GitHub/samurai/2024/nacho/lesson25/git_challenge$ git log --oneline
+a77f100 (HEAD -> main) hello_world.txtを追加
+(venv) akagi@akagi-z370a:~/.GitHub/samurai/2024/nacho/lesson25/git_challenge$ 
